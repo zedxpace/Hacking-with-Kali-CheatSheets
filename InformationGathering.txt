@@ -1,0 +1,22 @@
+: Information Gathering :
+
+: Considering in same ip range :
+: Scanning for Ip-Address:
+netdiscover -r [ip]			              
+// -r range /8/16/24 
+
+: Port scanning :
+
+nmap -v -P 0-65535 -A [ip] -oA [named-file]   	      //in this all ports and all info will be scanned and it is time consuming
+// -v View Process Onscreen
+// -P Port Number to be scanned
+// -A Scan other info also
+// -oA output in all format 
+
+
+nmap -v -T5 -p 0-65535 -A [ip] -oA [named-file]	     //as due to -T5 its is faster we should be sured that network is reliable      
+// -v View Process Onscreen
+// -T time limit 
+// -P Port Number to be scanned
+// -A Scan other info also
+// -oA output in all format 

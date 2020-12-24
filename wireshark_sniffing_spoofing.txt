@@ -1,0 +1,7 @@
+: sniffing/spoofing :
+: Wireshark :
+start monitoring on [eth0/wlan]
+filter packets with [ftp/http]
+get the passwords 
+&
+Decode with base64

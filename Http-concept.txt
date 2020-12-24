@@ -1,0 +1,58 @@
+: HTTP (Hyper-text-Transfer-Protocol):
+: It is an application level protocol for distributed, collaborative , hypermedia information systems : 
+//Features 
+: It is connectionless :
+
+a browser initiates an HTTP request and after a request is made, the client waits for the response. The server processes the request and sends a response back after which client disconnect the connection. So client and server knows about each other during current request and response only. Further requests are made on new connection like client and server are new to each other.
+
+: It is media independent :
+
+It means, any type of data can be sent by HTTP as long as both the client and the server know how to handle the data content. It is required for the client as well as the server to specify the content type using appropriate MIME-type.
+
+: It is stateless :
+
+HTTP is connectionless and it is a direct result of HTTP being a stateless protocol. The server and client are aware of each other only during a current request. Afterwards, both of them forget about each other. Due to this nature of the protocol, neither the client nor the browser can retain information between different requests across the web pages.
+
+			Architecture of Http Protocol
+
+			   |< ----web server 
+			   |	    |
+			   |	    |	
+			   | server side script
+	web client ------->|	    |
+			   |        |
+			   |	Database 
+
+It is a response request protocol based on client/server based architecture where Web-servers act as server & search-engine/browser act as clients.
+
+: Request-Methods :
+
+//-Uri uniform resource locator - identifies the name and location of file or resource in a uniform format.
+
+1	GET
+The GET method is used to retrieve information from the given server using a given URI. Requests using GET should only retrieve data and should have no other effect on the data.
+
+2	HEAD
+Same as GET, but it transfers the status line and the header section only.
+
+3	POST
+A POST request is used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
+
+4	PUT
+Replaces all the current representations of the target resource with the uploaded content.
+
+5	DELETE
+Removes all the current representations of the target resource given by URI.
+
+6	CONNECT
+Establishes a tunnel to the server identified by a given URI.
+
+7	OPTIONS
+Describe the communication options for the target resource.
+
+8	TRACE
+Performs a message loop back test along with the path to the target resource.
+
+:Request-uri :
+//it is a unifrom resource identifier and identifies the resource upon which to apply the request
+

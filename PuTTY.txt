@@ -1,0 +1,4 @@
+: PuTTY :
+It is an SSH and telnet client.
+tool used for remote access to another computer.
+used more often by people who want to secure remote shell access to unix or linux system than for any other purpose.

