@@ -1,7 +1,7 @@
-#Get the whole cheatsheet at one place in the below link :
+# Get the whole cheatsheet at one place in the below link :
 ## https://www.codexpace.ml/2022/02/hacking-with-kali-cheatsheet.html
 
-#SOME MORE INTERESTING CODE :
+# SOME MORE INTERESTING CODE :
 ## Python Command and Control Trojan : https://www.codexpace.ml/2021/11/command-control-trojan-with-python.html
 ## Python Based Keylogger : https://www.codexpace.ml/2021/11/command-control-trojan-with-python.html
 
