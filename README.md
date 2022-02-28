@@ -1,9 +1,9 @@
 # Get the whole cheatsheet at one place in the below link :
-## https://www.codexpace.ml/2022/02/hacking-with-kali-cheatsheet.html
+<div align="center">
+<a href="https://www.codexpace.ml/2022/02/hacking-with-kali-cheatsheet.html" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
 
-# SOME MORE INTERESTING CODE :
-## Python Command and Control Trojan : https://www.codexpace.ml/2021/11/command-control-trojan-with-python.html
-## Python Based Keylogger : https://www.codexpace.ml/2021/11/command-control-trojan-with-python.html
+</div>
+
 
 ## Hacking-with-Kali-CheatSheets
 This repository is all about text files containing the way /steps to penetrate a system .
